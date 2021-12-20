@@ -15,8 +15,7 @@ class IntroductionView extends React.Component {
     render() {
 
         return <div style={{
-            height: 500,
-            marginTop: 50,
+            marginTop: 100,
             backgroundColor: "",
         }}>
             <Row style={{paddingLeft: "2%", paddingTop: "2%"}}>

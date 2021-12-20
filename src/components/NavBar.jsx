@@ -7,7 +7,7 @@ class NavBar extends React.Component {
                     style={{
                         backgroundColor: "#FFFFFF"
                     }}>
-            <a className="navbar-brand me-auto" href="#"
+            <a className="navbar-brand me-auto" href="#" id={"navbar-text"}
                style={{
                    fontWeight: "bold",
                    paddingLeft: "30px",
@@ -23,6 +23,7 @@ class NavBar extends React.Component {
                 <li className="nav-item active">
                     <a className="nav-link"
                        href="/"
+                       id="navbar-text-link"
                        style={{
                            fontWeight: "bold",
                            padding: "15px",

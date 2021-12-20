@@ -17,6 +17,17 @@
     font-size: 1.7vw;
 }
 
+#nav-bar-text {
+    font-weight: bold;
+    color: #242424;
+    font-size: 30px;
+}
+
+#nav-bar-text-link {
+    font-weight: bold;
+    color: #242424;
+    font-size: 17px;
+}
 
 @media screen and (max-width: 400px) {
     #text-large {
