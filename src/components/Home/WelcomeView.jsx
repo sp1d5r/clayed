@@ -2,6 +2,7 @@ import React from 'react';
 import WelcomeStationary from "../../images/red-spin/welcome.png"
 import WelcomeSpin from "../../images/red-spin/output.gif"
 import {Row, Col} from 'react-bootstrap';
+import "../../styles/styles.css";
 
 class WelcomeView extends React.Component {
     constructor(props) {
@@ -28,21 +29,17 @@ class WelcomeView extends React.Component {
                         />
                     </Col>
                     <Col>
-                        <Row style={{height: "100%", backgroundColor: ""}}>
-                            <div style={{margin: "auto", paddingRight: "10%", paddingTop: "10%"}}>
-                                <p style={{
-                                    fontWeight: "bold",
+                        <Row style={{height: "100%", backgroundColor: ""}} className={"align-container"}>
+                            <div className={"vertical-centers"} style={{margin: "auto", paddingRight: "10%", paddingTop: "15%"}}>
+                                <p id="text-medium" style={{
                                     textAlign: "right",
-                                    fontSize: 30,
                                     margin: 0,
                                 }}>
                                     I'm high again
                                 </p>
-                                <p style={{
-                                    fontWeight: "bold",
+                                <p id="text-large" style={{
                                     textAlign: "right",
                                     margin: 0,
-                                    fontSize: 140
                                 }}>
                                     fuck
                                 </p>

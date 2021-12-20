@@ -1,0 +1,21 @@
+#text-large {
+    font-weight: bold;
+    font-size: 12vw;
+}
+
+#text-medium {
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.align-container {
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
