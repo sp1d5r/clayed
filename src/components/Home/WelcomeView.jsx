@@ -31,7 +31,7 @@ class WelcomeView extends React.Component {
                     <Col sm>
                         <Row style={{height: "100%", backgroundColor: ""}} className={"align-container"}>
                             <div className={"vertical-centers"} style={{margin: "auto", paddingRight: "10%", paddingTop: "15%"}}>
-                                <p id="text-medium" style={{
+                                <p id="text-small" style={{
                                     textAlign: "right",
                                     margin: 0,
                                 }}>

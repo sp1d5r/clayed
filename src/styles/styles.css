@@ -5,8 +5,18 @@
 
 #text-medium {
     font-weight: bold;
+    font-size: 5vw;
+}
+
+#text-small {
+    font-weight: bold;
     font-size: 1.7vw;
 }
+
+#text-small-normal {
+    font-size: 1.7vw;
+}
+
 
 @media screen and (max-width: 400px) {
     #text-large {
@@ -16,8 +26,18 @@
 
     #text-medium {
         font-weight: bold;
+        font-size: 45px;
+    }
+
+    #text-small {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    #text-small-normal {
         font-size: 15px;
     }
+
 }
 
 
