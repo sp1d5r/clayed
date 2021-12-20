@@ -21,14 +21,14 @@ class WelcomeView extends React.Component {
                 height: "150%", backgroundColor: "",
             }}>
                 <Row style={{backgroundColor: "",}}>
-                    <Col >
-                        <img style={{height:'auto',width:'100%'}}
+                    <Col sm>
+                        <img style={{height:'auto',width:'max(350px,100%)'}}
                              src={this.state.hover ? WelcomeSpin : WelcomeStationary} alt={"transparent nft"}
                              onMouseEnter={() => this.setIsShown(true)}
                              onMouseLeave={() => this.setIsShown(false)}
                         />
                     </Col>
-                    <Col>
+                    <Col sm>
                         <Row style={{height: "100%", backgroundColor: ""}} className={"align-container"}>
                             <div className={"vertical-centers"} style={{margin: "auto", paddingRight: "10%", paddingTop: "15%"}}>
                                 <p id="text-medium" style={{
