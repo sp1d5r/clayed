@@ -14,36 +14,39 @@ class NavBar extends React.Component {
                    paddingRight: "30px",
                    color: "#242424"
                }}>CLAYED</a>
-
-            <ul className="navbar-nav "
-                style={{
-                    paddingRight: "30px"
-                }}
+            <div className="collapse navbar-collapse" id="navbarSupportedContent"
+                 style={{justifyContent: "right"}}
             >
-                <li className="nav-item active">
-                    <a className="nav-link"
-                       href="/"
-                       id="navbar-text-link"
-                       style={{
-                           fontWeight: "bold",
-                           padding: "15px",
-                           fontSize: 15,
-                           color: "#242424",
-                       }}
-                    >Home</a>
-                </li>
-                <li className="nav-item disabled">
-                    <a className="nav-link disabled"
-                       href="/roadmap"
-                       style={{
-                           fontWeight: "bold",
-                           padding: "15px",
-                           fontSize: 15,
-                           color: "#242424"
-                       }}
-                    >Roadmap</a>
-                </li>
-            </ul>
+                <ul className="navbar-nav my-2 my-lg-0"
+                    style={{
+                        paddingRight: "30px"
+                    }}
+                >
+                    <li className="nav-item active">
+                        <a className="nav-link"
+                           href="/"
+                           id="navbar-text-link"
+                           style={{
+                               fontWeight: "bold",
+                               padding: "15px",
+                               fontSize: 15,
+                               color: "#242424",
+                           }}
+                        >Home</a>
+                    </li>
+                    <li className="nav-item disabled">
+                        <a className="nav-link disabled"
+                           href="/roadmap"
+                           style={{
+                               fontWeight: "bold",
+                               padding: "15px",
+                               fontSize: 15,
+                               color: "#242424"
+                           }}
+                        >Roadmap</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     };
 }
