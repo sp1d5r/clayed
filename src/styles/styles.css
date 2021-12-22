@@ -29,6 +29,14 @@
     font-size: 17px;
 }
 
+.example{
+    position: absolute!important;
+    left:0px!important;
+    top:0px!important;
+    margin-top: 80%;
+    height: 20%;
+}
+
 @media screen and (max-width: 400px) {
     #text-large {
         font-weight: bold;

@@ -22,7 +22,7 @@ class WelcomeView extends React.Component {
             }}>
                 <Row style={{backgroundColor: "",}}>
                     <Col sm>
-                        <img style={{height:'auto',width:'max(350px,100%)'}}
+                        <img style={{height:'auto',width:'max(350px,100%)', zIndex: 1}}
                              src={this.state.hover ? WelcomeSpin : WelcomeStationary} alt={"transparent nft"}
                              onMouseEnter={() => this.setIsShown(true)}
                              onMouseLeave={() => this.setIsShown(false)}

@@ -1,7 +1,8 @@
 import React from 'react';
-import {Row, Col, Container} from 'react-bootstrap';
+import {Row, Col, Container, Button} from 'react-bootstrap';
 import {BrowserView, MobileView} from 'react-device-detect';
 import "../../styles/styles.css";
+import BakedOvenBackground from "./BakedOvenBackground";
 
 class BakedOvenView extends React.Component {
     constructor(props) {
@@ -25,7 +26,7 @@ class BakedOvenView extends React.Component {
                     <Col style={{minWidth: 300}}>
                         <Row>
                             <p id={"text-medium"}>
-                                <span>baked oven
+                                <span>Baked Oven
                                 </span>
                             </p>
                         </Row>
@@ -63,12 +64,15 @@ class BakedOvenView extends React.Component {
                                 </span>
                             </MobileView>
                         </Row>
-                    </Col>
-                    <Col>
-                        <span>image of baked chars</span>
+                        <Row style={{paddingTop: "5%"}}>
+                            <Button variant="light" style={{width: "max(20%, 150px)", margin: "auto"}} href={"/baked/"}>
+                                Get Baked
+                            </Button>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
+            <BakedOvenBackground/>
         </div>
     };
 }

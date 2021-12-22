@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap';
 import WelcomeView from "./WelcomeView";
 import IntroductionView from "./IntroductionView";
 import BakedOvenView from "./BakedOvenView";
+import StrainsView from "./StrainsView";
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -18,6 +19,9 @@ class HomePage extends React.Component {
                 <IntroductionView />
             </Container>
             <BakedOvenView />
+            <Container style={{textAlign: "left"}}>
+                <StrainsView />
+            </Container>
         </div>
     };
 }
